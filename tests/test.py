@@ -42,7 +42,7 @@ def main():
         scale_list = solution_pc.answer(input_scale)
         scale_balance, weights_used = unpack_scales(scale_list, input_scale)
         print(scale_balance, weights_used)
-        assert scale_balance ==0
+        assert scale_balance == 0
 
     stop_time = timeit.default_timer()
     print(stop_time-start_time)
