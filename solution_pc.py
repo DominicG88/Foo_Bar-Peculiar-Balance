@@ -2,7 +2,7 @@
 
 # The sum of all previous powers of 3 = (the next-1)/2, i.e. sum(k=1:n-1)f(k) = (f(n)-1)/2, where f(k) = 3^k
 # So every number is reachable by summing or subtracting the correct powers of 3.
-# sign of remaining diff, +ve next weight goes on the opposite, -ve next weight goes on same side, greedy algorthm?
+# sign of remaining diff, +ve next weight goes on the opposite, -ve next weight goes on same side
 
 
 def answer(input_weight):

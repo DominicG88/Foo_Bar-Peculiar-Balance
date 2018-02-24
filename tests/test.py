@@ -1,7 +1,5 @@
-import solution_pc, solution_pc2
+import solution_pc
 import timeit
-import pdb
-import pytest
 import random
 
 # Use cProfile from command line to get time breakdown
